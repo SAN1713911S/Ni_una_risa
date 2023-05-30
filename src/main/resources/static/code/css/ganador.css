@@ -1,0 +1,52 @@
+body{
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
+   }
+
+   
+header {
+  background-color: #0A3D62;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  height: 50px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+#imagen{
+    margin:10px auto;
+    border-radius:5px;
+    border: 1px solid #09c2f5;
+    padding:50px;
+    width:280px;
+    height:280px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/942/570/non_2x/gold-winner-celebration-banner-with-trophy-vector.jpg");
+    background-size: 100% 100%;
+    
+    }
+  .img img{
+    width: 100%;
+  }
+ 
+
+  

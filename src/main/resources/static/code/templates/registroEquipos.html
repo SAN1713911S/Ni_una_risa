@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <meta charset="utf-8">
+  <title>Registro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/registroequipo.css">
+  <link rel="stylesheet" href="../css/header.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="../js/ScriptEquipos.js"></script>
+</head>
+
+<body>
+            <!-- Titulo header de la pagina--BARRA DE NAVEGACION --->
+        <header>
+          <h1>Registro Equipos</h1>
+          <nav>
+            <ul>
+              <li><a href="../../index.html">Inicio</a></li>
+              <li><a href="juego.html">Modos de juego</a></li>
+              <li><a href="Acerca_de.html">Acerca de</a></li>
+            </ul>
+          </nav>
+        </header>
+        
+        <main>
+        <div id="contenedor">
+
+            <div id="contEquipoA">
+                  <div class="titulo">
+                      <h4>Equipo A</h4>
+                  </div><br>
+
+                  <div id="imagenPersonajeA">
+                  
+                  </div>
+                  
+                <br><br>
+                
+                <label style="margin-left: 20%;" >Nombre:</label>
+
+                <input id="nameA" type="text"  name="name" required
+                       minlength="4" maxlength="12" size="14" style="margin-left: 1%;">
+                
+
+            </div>
+      
+            <div id="contEquipoB">
+                 <div class="titulo">
+                      <h4>Equipo B</h4>
+                  </div><br>
+                  <div id="imagenPersonajeB">
+
+                  </div> <br><br>
+                  <label style="margin-left: 20%;" >Nombre:</label>
+                <input id="nameB" type="text"  name="name" required
+                       minlength="4" maxlength="12" size="14" style="margin-left: 1%;">
+            </div>
+            <br><br><br>
+           
+              <a class="boton1" onclick="CrearEquipo()">Guardar Datos</a>
+            <!--href ="game_1v1.html"-->
+        </div>
+        </main>
+        <footer>
+          <p>&copy; 2023 - Ni una risa  - Universidad Sergio Arboleda<br/>
+              Ingeniería en ciencias de la computación e inteligencia artificial
+          </p>
+      </footer>
+</body>
+
+
+</html>

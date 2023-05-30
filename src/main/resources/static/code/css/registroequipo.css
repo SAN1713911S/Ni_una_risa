@@ -1,0 +1,92 @@
+#contenedor{
+    margin:10px auto;
+    border-radius:5px;
+    border: 1px solid #09c2f5;
+    padding:2px;
+    width:100%;
+    height:400px;
+    background-size: 100% 100%;
+    margin-bottom: 20px;
+}
+#contEquipoA{
+    border-radius: 5px;
+    border: 1px solid #0A3D62;
+    width: 48%;
+    height: 70%;
+    float: left;
+    padding: 2px;
+}
+  
+#contEquipoB{
+    border-radius: 5px;
+    border: 1px solid #0A3D62;
+    width: 48%;
+    height: 70%;
+    float: right;
+    padding: 2px;
+    
+}
+.titulo{
+    color: darkcyan;
+    text-align: center;
+    border: 1px solid #09c2f5;
+
+}
+
+#imagenPersonajeA{
+    border: 1px solid #09c2f5;
+    width: 120px;
+    height: 120px;
+    background-image: url('../imagenes/equipo1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto
+    
+}
+ 
+
+#imagenPersonajeB{
+    border: 1px solid #0A3D62;
+    width: 120px;
+    height: 120px;
+    background-image: url('https://www.tonica.la/__export/1656278287224/sites/debate/img/2022/06/26/assassinxs-creed-mejor-personaje.jpg_1902800913.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin:0 auto;
+}
+
+ 
+.boton1{
+  text-decoration: none;
+  display:inline-block;
+  width:40%;
+  padding:8px;
+  border: 3px solid  rgb(20, 155, 246);
+  border-radius:50px;
+  text-decoration: none;
+  color:rgb(11, 193, 234);
+  font-weight: bold;
+  transition: all 0.9s;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+  margin-left: 27%;
+  
+}
+
+.boton1:hover{
+
+  background:black;
+  color:white;
+
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  background-color: #F4F4F4;
+  padding: 80px;
+}
